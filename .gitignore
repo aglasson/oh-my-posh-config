@@ -1,0 +1,30 @@
+# Backup files
+*.backup.*
+*.bak
+*.old
+
+# Temporary files
+*.tmp
+.DS_Store
+Thumbs.db
+
+# PowerShell
+*.ps1~
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+desktop.ini
+
+# Local configuration overrides
+local.*.json
+local.*.ps1
