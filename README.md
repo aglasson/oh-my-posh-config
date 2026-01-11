@@ -53,7 +53,9 @@ oh-my-posh-config/
 1. **Clone this repository:**
    ```powershell
    cd ~
-   git clone https://github.com/aglasson/oh-my-posh-config.git
+   git clone https://github.com/<your-username>/oh-my-posh-config.git
+   # Or if you're the repo owner:
+   # git clone https://github.com/aglasson/oh-my-posh-config.git
    ```
 
 2. **Deploy PowerShell profile (Windows):**

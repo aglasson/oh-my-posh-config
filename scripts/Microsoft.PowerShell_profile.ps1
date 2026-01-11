@@ -3,7 +3,7 @@
 # Find location with: $PROFILE
 
 # Oh My Posh Configuration
-$ompConfig = "$HOME\oh-my-posh-config\themes\personal.omp.json"
+$ompConfig = Join-Path $HOME "oh-my-posh-config" "themes" "personal.omp.json"
 if (Test-Path $ompConfig) {
     oh-my-posh init pwsh --config $ompConfig | Invoke-Expression
 } else {
